@@ -1,0 +1,19 @@
+SEQUENTIAL ANSWER
+
+Found an answer ...
+Possibilities size: 262144
+Button: 4 pressed 1 times
+Button: 5 pressed 1 times
+Button: 8 pressed 1 times
+Button: 9 pressed 1 times
+Minimum moves: 4
+
+PARALLEL ANSWER
+
+Found an answer ...
+Possibilities size: 87382
+Button: 4 pressed 1 times
+Button: 5 pressed 1 times
+Button: 8 pressed 1 times
+Button: 9 pressed 1 times
+Minimum moves: 4

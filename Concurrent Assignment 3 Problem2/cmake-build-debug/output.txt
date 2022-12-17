@@ -1,0 +1,37 @@
+Sequential Solution: 
+Subset Question: 
+NO
+YES
+YES
+Permutation Question: 
+abcd
+abdc
+acbd
+acdb
+adbc
+adcb
+bacd
+badc
+bcad
+bcda
+bdac
+bdca
+cabd
+cadb
+cbad
+cbda
+cdab
+cdba
+dabc
+dacb
+dbac
+dbca
+dcab
+dcba
+
+Parallel Solution: 
+Processor 1 generated:  a b c d ab ac ad ba bc bd ca cb 
+Processor 2 generated: cd da db dc abc abd acb acd adb adc bac bad bca 
+Processor 3 generated: bcd bda bdc cab cad cba cbd cda cdb dab dac dba dbc 
+Processor 4 generated: dca dcb abcd abdc acbd acdb adbc adcb bacd badc bcad bcda bdac 
+Processor 5 generated: bdca cabd cadb cbad cbda cdab cdba dabc dacb dbac dbca dcab dcba 

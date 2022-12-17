@@ -1,0 +1,15 @@
+Enter lower limit, upper limit, tolerance, and number of processors
+Sequential Solution: 
+Solution is: 0.770917
+
+Parallel Solution:  
+Section 1 NO Solution in 100 tries
+Section 2 NO Solution in 100 tries
+Section 3 NO Solution in 100 tries
+Section 4 NO Solution in 100 tries
+Section 5 NO Solution in 100 tries
+Section 6 NO Solution in 100 tries
+Section 7 NO Solution in 100 tries
+Section 8 Solution is: 0.770917
+Section 9 NO Solution in 100 tries
+Section 10 NO Solution in 100 tries
