@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Concurrent_Assingment_4_Problem1.dir/objects.a
+C:\PROGRA~1\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\Concurrent_Assingment_4_Problem1.dir/objects.a @CMakeFiles\Concurrent_Assingment_4_Problem1.dir\objects1.rsp
+C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Concurrent_Assingment_4_Problem1.dir/objects.a -Wl,--no-whole-archive -o Concurrent_Assingment_4_Problem1.exe -Wl,--out-implib,libConcurrent_Assingment_4_Problem1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Concurrent_Assingment_4_Problem1.dir\linklibs.rsp
