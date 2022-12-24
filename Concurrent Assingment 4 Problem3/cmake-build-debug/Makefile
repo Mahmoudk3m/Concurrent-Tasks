@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Coding Related\C++_Projs\Concurrent Assignments\Concurrent Assingment 4 Problem3"
+CMAKE_SOURCE_DIR = "E:\Coding Related\C++_Projs\Concurrent-Tasks\Concurrent Assingment 4 Problem3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Coding Related\C++_Projs\Concurrent Assignments\Concurrent Assingment 4 Problem3\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\Coding Related\C++_Projs\Concurrent-Tasks\Concurrent Assingment 4 Problem3\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Coding Related\C++_Projs\Concurrent Assignments\Concurrent Assingment 4 Problem3\cmake-build-debug\CMakeFiles" "D:\Coding Related\C++_Projs\Concurrent Assignments\Concurrent Assingment 4 Problem3\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Coding Related\C++_Projs\Concurrent-Tasks\Concurrent Assingment 4 Problem3\cmake-build-debug\CMakeFiles" "E:\Coding Related\C++_Projs\Concurrent-Tasks\Concurrent Assingment 4 Problem3\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Coding Related\C++_Projs\Concurrent Assignments\Concurrent Assingment 4 Problem3\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Coding Related\C++_Projs\Concurrent-Tasks\Concurrent Assingment 4 Problem3\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

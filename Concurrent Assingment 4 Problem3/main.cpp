@@ -17,13 +17,24 @@ double eps = 1e-9;
 int const n=4,m=4;
 int x=49;
 int mesh[n][m];
-int search(int r,int c){
-    if(r==n||c==m)return mesh[0][0];
-    if(mesh[r][c]<mesh[0][0]){
-        swap(mesh[0][0],mesh[r][c]);
+void prefix(){
+    // in this step we use 4 processors to get the prefix of each row by itself
+    for(int i=1;i<m;i++){
+        // Assume that each processor gets a row, so I will be simulating that with a for loop on all rows
+        for(int j=0;j<n;j++){
+            mesh[j][i]+=mesh[j][i-1];
+        }
     }
-    search(r+1,c);
-    search(r,c+1);
+    //here we use 4 processors to get prefix of the last column after applying the row prefix
+    for(int i=1;i<n;i++){
+        mesh[i][3]+=mesh[i-1][3];
+    }
+    //lastly we use 3 processors to add the cumulative value of each row (mesh[i-1][3]) to the row below it (mesh[i][j])
+    for(int i=1;i<n;i++){
+        for(int j=0;j<m-1;j++){
+            mesh[i][j]+=mesh[i-1][3];
+        }
+    }
 }
 int32_t main(){
 #ifndef ONLINE_JUDGE
@@ -36,6 +47,12 @@ int32_t main(){
             cin>>mesh[i][j];
         }
     }
-    cout<<search(0,0);
+    prefix();
+    loop(0,4){
+        loopj(0,4){
+            cout<<mesh[i][j]<<" ";
+        }
+        cout<<endl;
+    }
     return 0;
 }
